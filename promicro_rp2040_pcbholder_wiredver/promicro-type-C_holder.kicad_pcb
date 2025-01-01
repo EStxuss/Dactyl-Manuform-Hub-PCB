@@ -1,0 +1,638 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(title "SU120 Yakitori Keyboard")
+		(rev "8")
+		(company "@e3w2q")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0.2)
+		(solder_mask_min_width 0.25)
+		(allow_soldermask_bridges_in_footprints no)
+		(aux_axis_origin 37.70322 52.784508)
+		(grid_origin 58.102501 69.05625)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue no)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk yes)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "/home/j/holder")
+		)
+	)
+	(net 0 "")
+	(footprint "#footprint:M1.4_tapping_Hole_rev2"
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d136cfe")
+		(at 46.7 67.74375)
+		(descr "Resitance 3 pas")
+		(tags "R")
+		(property "Reference" ""
+			(at 0 1.651 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f64bf40-1549-48a2-a209-461f9062d48b")
+			(effects
+				(font
+					(size 0.8128 0.8128)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -1.4605 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2151d76-15a9-43fe-b18e-8126c046ded9")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.125)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30dedf33-457e-49f3-9d31-c84f52de9df0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a7582b1-aedd-4e7e-b26e-513bd2b244b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06be014b-49fa-47e4-bca4-649e2b79f16b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(pad "" thru_hole circle
+			(at 0 0)
+			(size 1.43 1.43)
+			(drill 1.28)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "c7dd6e4e-6ec4-43f6-be2d-9e44b8e14ca8")
+		)
+		(model "discret/resistor.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3 0.3 0.3)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.2 0.2 0.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "#footprint:M1.4_tapping_Hole_rev2"
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d136d56")
+		(at 46.7 53.45625)
+		(descr "Resitance 3 pas")
+		(tags "R")
+		(property "Reference" ""
+			(at 0 1.651 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c283b62-1227-49e6-a20f-c566b0bd5ed8")
+			(effects
+				(font
+					(size 0.8128 0.8128)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -1.4605 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2201777-986d-456f-a983-26a7d7939876")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.125)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ef14feb-b676-4f4d-af32-61e8cfb3b1a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76b58400-de4d-4705-a744-c0e50021ea4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f9d07b7-8c1d-406b-8fea-f8f40337604c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(pad "" thru_hole circle
+			(at 0 0)
+			(size 1.43 1.43)
+			(drill 1.28)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "4bec435a-a24c-4293-b531-cb3c654aaa1d")
+		)
+		(model "discret/resistor.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3 0.3 0.3)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.2 0.2 0.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "#footprint:M1.4_tapping_Hole_rev2"
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-000060ee263c")
+		(at 46.102501 80.95625)
+		(descr "Resitance 3 pas")
+		(tags "R")
+		(property "Reference" ""
+			(at 0 1.651 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b42d07d1-da8f-4391-ad41-926cbf7f56b3")
+			(effects
+				(font
+					(size 0.8128 0.8128)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -1.4605 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87001ea6-9d9d-4266-81f6-3e84d1dfa8a9")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.125)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72d79d83-9905-4dfc-872d-20a836c33725")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3711864d-b7cc-40f9-8832-2d16a0df3c92")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e21454e9-4646-48d3-aba1-706bcc3a4114")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(pad "" thru_hole circle
+			(at 0.597499 0)
+			(size 1.43 1.43)
+			(drill 1.28)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "c0ca5317-72f9-4884-8339-171684238fb7")
+		)
+		(model "discret/resistor.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3 0.3 0.3)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.2 0.2 0.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "0daf93e0-25fd-4f20-b673-fc61b306bba0")
+		(at 8.552501 -16.34375)
+		(property "Reference" ""
+			(at 45.543126 74.330626 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6121af63-bcef-423e-ba4c-161e4f3114fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 45.543126 74.330626 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aaf27745-c1f5-4952-a1e9-8ef690dcc4d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97d2c69a-c31b-4101-ae35-c9520c9b981f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9615728-01c6-4e40-b2a2-0449ddcc4764")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97e5c5c5-9ac0-4eab-8215-372511d19c07")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+	)
+	(gr_arc
+		(start 81.198686 69.20625)
+		(mid 80.992496 69.660795)
+		(end 80.546597 69.885069)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005c918d62")
+	)
+	(gr_arc
+		(start 80.408751 51.0875)
+		(mid 80.970017 51.319984)
+		(end 81.202501 51.88125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005c93b1a3")
+	)
+	(gr_arc
+		(start 44.914563 51.906238)
+		(mid 45.137888 51.328889)
+		(end 45.70792 51.0875)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005c98d5d2")
+	)
+	(gr_line
+		(start 81.198686 54.647028)
+		(end 81.198686 61.790796)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005cf1f0d4")
+	)
+	(gr_line
+		(start 44.91417 57.623598)
+		(end 44.91417 56.43297)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-000060ee00d7")
+	)
+	(gr_arc
+		(start 45.311046 82.178126)
+		(mid 45.030412 82.061884)
+		(end 44.91417 81.78125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-000060ee26ab")
+	)
+	(gr_line
+		(start 61.752501 69.88125)
+		(end 80.546597 69.885069)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-000060ee6183")
+	)
+	(gr_arc
+		(start 60.952501 81.45625)
+		(mid 60.758535 81.941169)
+		(end 60.295276 82.182335)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-000060f910a5")
+	)
+	(gr_arc
+		(start 60.951768 70.606231)
+		(mid 61.196808 70.072184)
+		(end 61.752501 69.88125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-000060fb430a")
+	)
+	(gr_line
+		(start 44.91417 70.80625)
+		(end 44.91417 78.41873)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0f32f08e-4f23-4715-887b-464b9a8e2e38")
+	)
+	(gr_line
+		(start 81.202501 51.88125)
+		(end 81.198686 54.647028)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "49a5c9b0-1ff4-4b4b-970b-a8373f95c872")
+	)
+	(gr_line
+		(start 81.198686 66.751746)
+		(end 81.198686 69.20625)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5e36bc72-ddfe-44a9-bbf8-950b0e92727a")
+	)
+	(gr_line
+		(start 45.70792 51.0875)
+		(end 80.408751 51.0875)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "81b625c4-bbd6-4204-a612-be3996bf1d24")
+	)
+	(gr_line
+		(start 44.91417 70.80625)
+		(end 44.91417 57.623598)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "98a79438-bef9-45f7-84f0-1e23207099bc")
+	)
+	(gr_line
+		(start 60.952501 81.45625)
+		(end 60.952501 70.60625)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b0f0717f-95bd-4cdc-bc16-39cbff887f2a")
+	)
+	(gr_line
+		(start 45.311046 82.178126)
+		(end 60.295276 82.182335)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cad18a73-ba98-4cbf-a395-e865544c43d3")
+	)
+	(gr_line
+		(start 81.198686 61.790796)
+		(end 81.198686 66.751746)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cb144397-3131-4e7c-8880-aaa5effa382f")
+	)
+	(gr_line
+		(start 44.91417 81.78125)
+		(end 44.91417 78.41873)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d7c044e8-557b-410f-bfcf-c5398789acbb")
+	)
+	(gr_line
+		(start 44.91417 51.90625)
+		(end 44.91417 56.43297)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e5614697-9202-42c1-859d-01a504f5b0f8")
+	)
+)
