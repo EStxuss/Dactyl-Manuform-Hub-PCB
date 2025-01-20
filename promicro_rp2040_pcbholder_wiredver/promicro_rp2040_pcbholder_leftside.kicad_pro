@@ -251,15 +251,11 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": "RCol6"
+        "pattern": "RCol5"
       },
       {
         "netclass": "Default",
-        "pattern": "unconnected-(U1-GP11-Pad31)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LGND"
+        "pattern": "LRow1"
       },
       {
         "netclass": "Default",
@@ -267,23 +263,15 @@
       },
       {
         "netclass": "Default",
-        "pattern": "unconnected-(U4-RING1-Pad3)"
+        "pattern": "unconnected-(U3-RST-Pad28)"
       },
       {
         "netclass": "Default",
-        "pattern": "LRow2"
+        "pattern": "unconnected-(U3-GP12-Pad14)"
       },
       {
         "netclass": "Default",
-        "pattern": "RRow6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GND-Pad29)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "RCol5"
+        "pattern": "LData"
       },
       {
         "netclass": "Default",
@@ -291,27 +279,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "unconnected-(U1-GP14-Pad16)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "RRow4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U3-GND-Pad4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GP15-Pad17)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LCol2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U3-GP10-Pad1)"
+        "pattern": "RRow3"
       },
       {
         "netclass": "Default",
@@ -319,39 +287,11 @@
       },
       {
         "netclass": "Default",
-        "pattern": "RRow1"
+        "pattern": "unconnected-(U3-GP14-Pad16)"
       },
       {
         "netclass": "Default",
-        "pattern": "RRow3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GND-Pad4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LCol1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LCol8"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-5v-Pad30)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "RRow7"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GP13-Pad15)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U3-RST-Pad28)"
+        "pattern": "LCol2"
       },
       {
         "netclass": "Default",
@@ -359,31 +299,15 @@
       },
       {
         "netclass": "Default",
-        "pattern": "unconnected-(U1-GP12-Pad14)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LCol3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U2-RING1-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LRow8"
-      },
-      {
-        "netclass": "Default",
         "pattern": "LCol7"
       },
       {
         "netclass": "Default",
-        "pattern": "LRow7"
+        "pattern": "unconnected-(U3-GND-Pad5)"
       },
       {
         "netclass": "Default",
-        "pattern": "RCol4"
+        "pattern": "unconnected-(U1-GND-Pad29)"
       },
       {
         "netclass": "Default",
@@ -395,51 +319,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "RCol3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LRow3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LRow5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LRow6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "RCol7"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "RRow5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GP1-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GP10-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LVCC"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LCol6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "RCol8"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "RGND"
+        "pattern": "unconnected-(U1-GP11-Pad31)"
       },
       {
         "netclass": "Default",
@@ -447,35 +327,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "unconnected-(U3-GP1-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U3-GP15-Pad17)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GP16-Pad18)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LRow4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U3-GP13-Pad15)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LRow1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U3-GND-Pad5)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LCol4"
+        "pattern": "unconnected-(U3-GP10-Pad1)"
       },
       {
         "netclass": "Default",
@@ -483,7 +335,35 @@
       },
       {
         "netclass": "Default",
-        "pattern": "unconnected-(U3-GP12-Pad14)"
+        "pattern": "LCol8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RCol3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-GP14-Pad16)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-GP16-Pad18)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LRow2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LRow3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RGND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U3-GP15-Pad17)"
       },
       {
         "netclass": "Default",
@@ -491,7 +371,127 @@
       },
       {
         "netclass": "Default",
-        "pattern": "LData"
+        "pattern": "LCol3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LRow8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RRow1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LRow7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LCol4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-5v-Pad30)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-GP1-Pad3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-GP12-Pad14)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LRow5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LVCC"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RCol8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-GP10-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U4-RING1-Pad3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LGND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RCol4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LRow4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LCol1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LCol6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RCol7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RRow2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-GP13-Pad15)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RCol6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U2-RING1-Pad3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U3-GND-Pad4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U3-GP13-Pad15)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-GND-Pad4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LRow6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RRow5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RRow6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-GP15-Pad17)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U3-GP1-Pad3)"
       },
       {
         "netclass": "Default",
@@ -499,11 +499,11 @@
       },
       {
         "netclass": "Default",
-        "pattern": "unconnected-(U3-GP14-Pad16)"
+        "pattern": "RRow4"
       },
       {
         "netclass": "Default",
-        "pattern": "RRow2"
+        "pattern": "RRow7"
       }
     ]
   },
