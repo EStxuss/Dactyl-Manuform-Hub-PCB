@@ -1,4 +1,4 @@
-Update 1/20/2025: I've ordered these from JLCPCB and used them in a keyboard and no problems were found. 
+Wired version has been tested. Wireless version has been ordered from manufacturuer and hasn't been tested
 
 I'm not an electrical engineer. I'm open to suggestions for changes
 # dactyl-mcu-pcb-mounts
