@@ -1,8 +1,0 @@
-#!/home/eric/repos/dactyl-mcu-pcb-mounts/promicro_rp2040_pcbholder_wiredver/.venv/bin/python3
-# -*- coding: utf-8 -*-
-import re
-import sys
-from kikit.info import cli
-if __name__ == '__main__':
-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
-    sys.exit(cli())

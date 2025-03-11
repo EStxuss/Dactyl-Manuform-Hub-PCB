@@ -634,89 +634,7 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-		(symbol "PCM_marbastlib-promicroish:nice_nano"
+		(symbol "Dactyl_SuperMini_Lib:SuperMini_nRF52840_ProMicro"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -728,7 +646,7 @@
 					)
 				)
 			)
-			(property "Value" "nice_nano"
+			(property "Value" "SuperMini nRF52840"
 				(at 0 21.59 0)
 				(effects
 					(font
@@ -745,7 +663,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://nicekeyboards.com/docs/nice-nano/pinout-schematic"
+			(property "Datasheet" "https://wiki.icbbuy.com/doku.php?id=developmentboard:nrf52840"
 				(at 1.27 -33.02 0)
 				(effects
 					(font
@@ -754,7 +672,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Symbol for an nicekeyboards nice!nano"
+			(property "Description" "Symbol for Supermini nRF52840 with only pro micro compatible pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -763,7 +681,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "nice_nano_0_0"
+			(symbol "SuperMini_nRF52840_ProMicro_0_0"
 				(pin bidirectional line
 					(at -19.05 13.97 0)
 					(length 2.54)
@@ -854,7 +772,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 19.05 8.89 180)
 					(length 2.54)
 					(name "RST"
@@ -1143,8 +1061,8 @@
 					)
 				)
 			)
-			(symbol "nice_nano_1_0"
-				(pin power_in line
+			(symbol "SuperMini_nRF52840_ProMicro_1_0"
+				(pin power_out line
 					(at 19.05 13.97 180)
 					(length 2.54)
 					(name "BAT+"
@@ -1198,98 +1116,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -5.08 -19.05 90)
-					(length 2.54)
-					(name "P1.01-LF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -19.05 90)
-					(length 2.54)
-					(name "P1.02-LF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -19.05 90)
-					(length 2.54)
-					(name "P1.07-LF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -19.05 16.51 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 19.05 16.51 180)
-					(length 2.54)
-					(name "BAT+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "nice_nano_1_1"
+			(symbol "SuperMini_nRF52840_ProMicro_1_1"
 				(rectangle
 					(start -16.51 19.05)
 					(end 16.51 -16.51)
@@ -1299,6 +1127,88 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2080,14 +1990,6 @@
 		(uuid "f549782c-0053-4db6-9ad2-ca9955250d9e")
 	)
 	(no_connect
-		(at 156.21 90.17)
-		(uuid "010372cf-5bcd-46e6-9d26-9a09d5b62dbf")
-	)
-	(no_connect
-		(at 134.62 125.73)
-		(uuid "2475f7e5-7215-44f6-b28f-a251e1d714eb")
-	)
-	(no_connect
 		(at 118.11 92.71)
 		(uuid "5c9372bc-9de4-40c5-b8df-51620ba079e7")
 	)
@@ -2098,18 +2000,6 @@
 	(no_connect
 		(at 185.42 64.77)
 		(uuid "b2d4b29f-47c4-42f7-944b-c2ca77922924")
-	)
-	(no_connect
-		(at 137.16 125.73)
-		(uuid "d098442e-7a53-401c-bd13-34010fb8eff1")
-	)
-	(no_connect
-		(at 118.11 90.17)
-		(uuid "d8140534-d4e8-4d86-8617-27ceb0c5e32f")
-	)
-	(no_connect
-		(at 132.08 125.73)
-		(uuid "e1565ace-656f-438f-8425-a0df9603b701")
 	)
 	(wire
 		(pts
@@ -3784,7 +3674,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-promicroish:nice_nano")
+		(lib_id "Dactyl_SuperMini_Lib:SuperMini_nRF52840_ProMicro")
 		(at 137.16 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3801,7 +3691,7 @@
 				)
 			)
 		)
-		(property "Value" "nice_nano"
+		(property "Value" "SuperMini nRF52840"
 			(at 137.16 85.09 0)
 			(effects
 				(font
@@ -3818,7 +3708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://nicekeyboards.com/docs/nice-nano/pinout-schematic"
+		(property "Datasheet" "https://wiki.icbbuy.com/doku.php?id=developmentboard:nrf52840"
 			(at 138.43 139.7 0)
 			(effects
 				(font
@@ -3827,7 +3717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Symbol for an nicekeyboards nice!nano"
+		(property "Description" "Symbol for Supermini nRF52840 with only pro micro compatible pins"
 			(at 137.16 106.68 0)
 			(effects
 				(font
@@ -3838,18 +3728,6 @@
 		)
 		(pin "23"
 			(uuid "883b2c6f-04c6-4ca5-9928-207aa790afcf")
-		)
-		(pin "25"
-			(uuid "bb592a78-4bab-4d1e-b774-19527821fc08")
-		)
-		(pin "26"
-			(uuid "303efd14-6169-4de3-a056-fa97ca61d31c")
-		)
-		(pin "27"
-			(uuid "04baa313-6863-4490-99a2-01f13f6b58e6")
-		)
-		(pin "28"
-			(uuid "c197f4cc-d4af-4fdf-a863-48040d29a5ee")
 		)
 		(pin "24"
 			(uuid "82ec0db6-f053-4ccd-bd69-b0ed54b59797")
@@ -3904,9 +3782,6 @@
 		)
 		(pin "7"
 			(uuid "3397cd81-3ed9-4faa-bb6b-d9f9a9aad5b7")
-		)
-		(pin "29"
-			(uuid "746afac5-f873-4ba7-88b8-c9fff3a4138c")
 		)
 		(pin "17"
 			(uuid "6aa2183a-51c4-4396-8ff8-03f37a86ccd7")

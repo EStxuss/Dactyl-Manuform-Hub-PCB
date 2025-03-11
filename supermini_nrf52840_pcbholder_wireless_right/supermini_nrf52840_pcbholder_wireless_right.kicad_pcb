@@ -1713,7 +1713,7 @@
 				(justify left mirror)
 			)
 		)
-		(property "Value" "nice_nano"
+		(property "Value" "SuperMini nRF52840"
 			(at 0 -0.635 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -1740,7 +1740,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://nicekeyboards.com/docs/nice-nano/pinout-schematic"
+		(property "Datasheet" "https://wiki.icbbuy.com/doku.php?id=developmentboard:nrf52840"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -1754,7 +1754,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Symbol for an nicekeyboards nice!nano"
+		(property "Description" "Symbol for Supermini nRF52840 with only pro micro compatible pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2050,7 +2050,7 @@
 			(remove_unused_layers no)
 			(net 21 "Net-(SW2-A)")
 			(pinfunction "RST")
-			(pintype "input")
+			(pintype "bidirectional")
 			(uuid "29502d91-3f56-4541-9b24-6b2297722c91")
 		)
 		(pad "16" thru_hole circle
