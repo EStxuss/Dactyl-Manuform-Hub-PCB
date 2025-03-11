@@ -1,4 +1,4 @@
-Wired version has been tested. Wireless version has been ordered from manufacturuer and hasn't been tested
+Wired version has been tested. Wireless version has been ordered from fab and hasn't been tested
 
 I'm not an electrical engineer. I'm open to suggestions for changes
 # dactyl-mcu-pcb-mounts
